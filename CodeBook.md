@@ -1,17 +1,16 @@
-# Tidy data set description
+# Codebook for Week 4 Assignment
 
 ### The variables in the tidy data
-Tidy data contains 180 rows and 68 columns. Each row has averaged variables for each subject and each activity.
+The tidy data contains 180 rows and 68 columns. Each row has mean and standard deviation variables for each subject and each activity.
 
 ### Only all the variables estimated from mean and standard deviation in the tidy set were kept.
 
-* mean(): Mean value
+* mean(): Mean
 * std(): Standard deviation
 
 ### The data were averaged based on subject and activity group.
 
-Subject column is numbered sequentially from 1 to 30.
-Activity column has 6 types as listed below.
+Subject column is numbered from 1 to 30 while there are 6 activities listed below.
 1. WALKING
 2. WALKING_UPSTAIRS
 3. WALKING_DOWNSTAIRS
@@ -19,7 +18,7 @@ Activity column has 6 types as listed below.
 5. STANDING
 6. LAYING
 
-### The tidy data contains 6 rows (averaged based on activity) and 68 columns (66 variables and activity labels).
+### The tidy data contains 68 columns below:
 1. "activitylabel"
 2. "subject"
 3. "tBodyAcc-mean()-X"          
